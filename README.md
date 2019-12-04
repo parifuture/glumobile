@@ -18,6 +18,19 @@ composer dump-autoload -o
 php artisan queue:work &
 ```
 
+## EndPoints
+
+### GET
+
+* `Welcome To API Call` http://glu.test
+* `Get All Tasks` http://glu.test/api/tasks
+* `Get Task By Id` http://glu.test/api/tasks/1
+* `Get Avg Processing Time of All Processors` http://glu.test/api/processor
+
+### POST
+
+* `Add a new Task` http://glu.test/api/tasks
+
 
 ## License
 
